@@ -51,5 +51,7 @@ public class Factorial {
     }
 
     return n * factorialRec(n - 1);
+    System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialRec(num));
+
  }
 }
