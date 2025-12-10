@@ -41,6 +41,7 @@ public class Factorial {
 
 
 	private static long factorialBucle(int n) {
+		System.out.println("RESULTADO - El factorial del número " + num + " es " + factorialBucle(num));
 
 	}
 }
